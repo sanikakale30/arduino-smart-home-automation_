@@ -13,27 +13,12 @@ It turns the light ON when motion is detected **and** the ambient light is low, 
 - Jumper Wires
 - Breadboard
 
-## Circuit Connection
-| Component        | Arduino Pin | Notes |
-|------------------|-------------|-------|
-| PIR Sensor OUT   | D2          | Motion detect karega |
-| LDR              | A0          | Ambient light measure karega |
-| Relay IN         | D3          | Light ko ON/OFF karega |
-| LDR Resistor     | 10kΩ to GND | Voltage divider banane ke liye |
-| PIR VCC          | 5V          | Power |
-| PIR GND          | GND         | Ground |
-| Relay VCC        | 5V          | Power |
-| Relay GND        | GND         | Ground |
 
 ## How it Works
-1. The LDR continuously measures ambient light.
-2. If ambient light is low **and** motion is detected → relay ON (light ON).
-3. If no motion is detected for a few seconds → relay OFF (light OFF).
+1. Upload the code from Arduino_Sketch/smart_home.ino to your Arduino UNO.
+2.Connect all components 
+3.Move in front of the PIR sensor in dim light to test the system.
 
-## Usage
-1. Upload the code from `Arduino_Sketch/smart_home.ino` to your Arduino.
-2. Connect the circuit as per diagram.
-3. Test by moving in front of the PIR sensor in low light.
 
 ---
-© sanikakale
+© sanikakale_30
