@@ -36,4 +36,4 @@ It turns the light ON when motion is detected **and** the ambient light is low, 
 3. Test by moving in front of the PIR sensor in low light.
 
 ---
-© 2025 YourName
+© sanikakale
